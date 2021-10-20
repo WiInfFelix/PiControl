@@ -1,0 +1,15 @@
+Increase Volume
+Increases the volume of the AUX output by 3
+amixer cset numid=1 3%+
+
+Decrease Volume
+Decreases the volume of the AUX output by 3
+amixer cset numid=1 3%-
+
+Reboot raspotify
+Reboots the spotify client in case it is not visible
+sudo systemctl restart raspotify
+
+Reboot Pi
+When none of the above seem to help, reboot the system
+sudo reboot
